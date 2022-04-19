@@ -1,0 +1,26 @@
+// Style du header
+
+header {
+
+  width: 100%;
+  height: 10%;
+
+  z-index: 2;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  background-color: white;
+
+
+  h1 {
+
+    font-size: 3rem;
+
+  }
+
+}
+
+

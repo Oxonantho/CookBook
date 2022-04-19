@@ -1,0 +1,62 @@
+main{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+
+
+  z-index: 1;
+
+  position: relative;
+
+}
+
+
+
+.containerCookTitle{
+
+  width: 100%;
+  height: 100%;
+
+  .bgHome{
+
+    position: absolute;
+
+    z-index: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      left: -1px;
+      top: 0px;
+
+    }
+
+}}
+
+.containerTopTitle {
+
+  z-index: 3;
+  position: relative;
+  top: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+    padding: 0;
+    margin: 0;
+  }
+
+  }
+
+
+
+
